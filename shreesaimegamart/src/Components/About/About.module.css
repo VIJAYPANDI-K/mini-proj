@@ -1,0 +1,45 @@
+#footer {
+  background-color: rgba(0, 0, 0, 0.683);
+  color: white;
+}
+
+footer h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footer-content {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.contact {
+  cursor: pointer;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.contact span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-desc p {
+  color: white;
+  font-size: 20px;
+  width: 700px;
+}
+
+.copyrights {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 24px;
+  color: white;
+}

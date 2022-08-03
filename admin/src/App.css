@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+}
+
+/* .link {
+  text-decoration: none;
+  color: none;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}

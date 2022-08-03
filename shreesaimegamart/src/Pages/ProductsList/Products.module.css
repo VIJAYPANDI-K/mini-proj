@@ -1,0 +1,60 @@
+.Wrapper {
+  flex: 6;
+  padding: 30px;
+  text-align: center;
+  background-color: B4FF9F;
+}
+
+.Wrapper h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: 1em;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.collections {
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  border: 2px solid;
+  width: 200px;
+  height: 200px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.name h2 {
+  font-size: 20px;
+}
+
+.collections .image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.loading {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.collections:hover {
+  transform: scale(110%);
+  background-color: azure;
+}
